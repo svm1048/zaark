@@ -111,7 +111,7 @@ const Faq = () => {
               </div>
             ))
           ) : (
-          )}
+          )=>
         </motion.div>
 
         <div className="text-center mt-12">
