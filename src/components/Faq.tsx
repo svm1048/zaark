@@ -21,42 +21,37 @@ const Faq = () => {
   const faqItems: FaqItem[] = [
     {
       question: "What is DevJams?",
-      answer: "DevJams is a premier tech event bringing together developers, designers, and tech enthusiasts for three days of workshops, talks, networking, and a hackathon. It's designed to foster learning, collaboration, and innovation in the tech community.",
+      answer: "\nDevJams is a premier tech event bringing together developers, designers, and tech enthusiasts for three days of talks, networking, and a hackathon. It's designed to foster learning, collaboration, and innovation in the tech community.",
       category: "general"
     },
     {
       question: "When and where is DevJams taking place?",
-      answer: "DevJams will be held on October 15-17, 2025, at the TechHub Conference Center in San Francisco, CA. Virtual attendance options are also available for those who cannot attend in person.",
+      answer: "\nDevJams will be held on October 15-17, 2025, at Anna Auditorium VIT Vellore, TN.",
       category: "logistics"
     },
     {
       question: "How much does registration cost?",
-      answer: "Early bird registration is $299 for in-person attendance and $149 for virtual attendance. Regular pricing will be $399 for in-person and $199 for virtual. Students receive a 50% discount with valid ID.",
+      answer: "\nNo, it’s free for all! You don’t need to pay to participate in the event. Use it on Tinder instead. ",
       category: "registration"
     },
     {
-      question: "What's included in the registration fee?",
-      answer: "Registration includes access to all sessions, workshops, the hackathon, networking events, meals during the event (breakfast, lunch, and snacks), swag bag, and post-event access to session recordings.",
+      question: "Can we bring old projects or must we start from scratch?",
+      answer: "\nOnce the hack starts, you will have to start working on a new project. No old projects are allowed.",
       category: "registration"
     },
     {
       question: "Is there a code of conduct?",
-      answer: "Yes, DevJams is committed to providing a harassment-free, inclusive experience for everyone. All attendees, speakers, sponsors, and volunteers are required to adhere to our code of conduct, which can be found on our website.",
+      answer: "\nYes, DevJams is committed to providing a harassment-free, inclusive experience for everyone. All attendees, speakers, sponsors, and volunteers are required to adhere to our code of conduct, which can be found on our website.",
       category: "general"
     },
     {
-      question: "Can I get a refund if I can't attend?",
-      answer: "Refunds are available up to 30 days before the event with a 15% processing fee. Within 30 days, you can transfer your registration to someone else or convert to virtual attendance, but refunds are not available.",
-      category: "registration"
-    },
-    {
       question: "Will sessions be recorded?",
-      answer: "Yes, all sessions will be recorded and made available to registered attendees after the event. Virtual attendees will have real-time access to livestreams of all sessions.",
+      answer: "\nYes, all sessions will be recorded and made available to registered attendees after the event. Virtual attendees will have real-time access to livestreams of all sessions.",
       category: "content"
     },
     {
       question: "What should I bring to the event?",
-      answer: "Bring your laptop, charger, business cards, and any devices you'll need for the workshops or hackathon. Comfortable clothing is recommended as the event will be long and interactive.",
+      answer: "\nBring your laptop, charger, and any devices you'll need for the hackathon. Comfortable clothing is recommended as the event will be long and interactive.",
       category: "logistics"
     }
   ];
@@ -85,20 +80,6 @@ const Faq = () => {
             feel free to contact us directly.
           </p>
         </motion.div>
-
-        <div className="max-w-3xl mx-auto mb-12">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search questions..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="form-input pl-12"
-            />
-            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
-          </div>
-        </div>
-
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -130,9 +111,6 @@ const Faq = () => {
               </div>
             ))
           ) : (
-            <div className="text-center py-8">
-              <p className="text-gray-400">No questions found matching your search.</p>
-            </div>
           )}
         </motion.div>
 
