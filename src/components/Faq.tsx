@@ -21,37 +21,37 @@ const Faq = () => {
   const faqItems: FaqItem[] = [
     {
       question: "What is DevJams?",
-      answer: "\nDevJams is a premier tech event bringing together developers, designers, and tech enthusiasts for three days of talks, networking, and a hackathon. It's designed to foster learning, collaboration, and innovation in the tech community.",
+      answer: "\n\nDevJams is a premier tech event bringing together developers, designers, and tech enthusiasts for three days of talks, networking, and a hackathon. It's designed to foster learning, collaboration, and innovation in the tech community.",
       category: "general"
     },
     {
       question: "When and where is DevJams taking place?",
-      answer: "\nDevJams will be held on October 15-17, 2025, at Anna Auditorium VIT Vellore, TN.",
+      answer: "\n\nDevJams will be held on October 15-17, 2025, at Anna Auditorium VIT Vellore, TN.",
       category: "logistics"
     },
     {
       question: "How much does registration cost?",
-      answer: "\nNo, it’s free for all! You don’t need to pay to participate in the event. Use it on Tinder instead. ",
+      answer: "\n\nNo, it’s free for all! You don’t need to pay to participate in the event. Use it on Tinder instead. ",
       category: "registration"
     },
     {
       question: "Can we bring old projects or must we start from scratch?",
-      answer: "\nOnce the hack starts, you will have to start working on a new project. No old projects are allowed.",
+      answer: "\n\nOnce the hack starts, you will have to start working on a new project. No old projects are allowed.",
       category: "registration"
     },
     {
       question: "Is there a code of conduct?",
-      answer: "\nYes, DevJams is committed to providing a harassment-free, inclusive experience for everyone. All attendees, speakers, sponsors, and volunteers are required to adhere to our code of conduct, which can be found on our website.",
+      answer: "\n\nYes, DevJams is committed to providing a harassment-free, inclusive experience for everyone. All attendees, speakers, sponsors, and volunteers are required to adhere to our code of conduct, which can be found on our website.",
       category: "general"
     },
     {
       question: "Will sessions be recorded?",
-      answer: "\nYes, all sessions will be recorded and made available to registered attendees after the event. Virtual attendees will have real-time access to livestreams of all sessions.",
+      answer: "\n\nYes, all sessions will be recorded and made available to registered attendees after the event. Virtual attendees will have real-time access to livestreams of all sessions.",
       category: "content"
     },
     {
       question: "What should I bring to the event?",
-      answer: "\nBring your laptop, charger, and any devices you'll need for the hackathon. Comfortable clothing is recommended as the event will be long and interactive.",
+      answer: "\n\nBring your laptop, charger, and any devices you'll need for the hackathon. Comfortable clothing is recommended as the event will be long and interactive.",
       category: "logistics"
     }
   ];
