@@ -61,9 +61,7 @@ const Footer = () => {
                 <a href="mailto:info@devjams.tech" className="hover:text-white transition-colors duration-300">info@devjams.tech</a>
               </li>
               <li className="text-gray-400">
-                TechHub Conference Center<br />
-                123 Innovation Drive<br />
-                San Francisco, CA 94103
+                VIT Vellore, GDSC<br />
               </li>
             </ul>
           </div>
@@ -71,7 +69,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
           <p>&copy; {new Date().getFullYear()} DevJams. All rights reserved.</p>
-          <p className="mt-2">Designed with ❤️ for developers everywhere</p>
+          <p className="mt-2">Designed with ❤️ By Ithan Menachery</p>
         </div>
       </div>
     </footer>
