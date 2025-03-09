@@ -165,4 +165,35 @@ body {
 .session-card.networking {
   @apply border-google-green;
 }
+/* Smooth hover transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
 
+/* Accessibility focus styles */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #4285F4;
+  outline-offset: 2px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-gray-900 {
+    background-color: #1a1a1a;
+  }
+  
+  .dark\:text-gray-400 {
+    color: #9ca3af;
+  }
+  
+  .dark\:text-white {
+    color: #ffffff;
+  }
+  
+  .dark\:border-gray-700 {
+    border-color: #374151;
+  }
+}
