@@ -21,7 +21,7 @@ const Faq = () => {
   const faqItems: FaqItem[] = [
     {
       question: "What is DevJams?",
-      answer: "\n\n\nDevJams is a premier tech event bringing together developers, designers, and tech enthusiasts for three days of workshops, talks, networking, and a hackathon. It's designed to foster learning, collaboration, and innovation in the tech community.",
+      answer: "\nDevJams is a premier tech event bringing together developers, designers, and tech enthusiasts for three days of workshops, talks, networking, and a hackathon. It's designed to foster learning, collaboration, and innovation in the tech community.",
       category: "general"
     },
     {

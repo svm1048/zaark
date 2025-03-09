@@ -9,11 +9,7 @@ const Footer = () => {
       
       {/* T-Rex illustration */}
       <div className="absolute right-0 bottom-0 w-48 h-48 opacity-10 transform translate-x-1/4 translate-y-1/4">
-        <img
-          src="https://www.gstatic.com/chrome/dino/t-rex-running-01.png"
-          alt="T-Rex"
-          className="w-full h-full object-contain"
-        />
+        <div className="w-full h-full bg-[#4285F4] mask-dino"></div>
       </div>
 
       <div className="container mx-auto px-4 relative">
@@ -22,11 +18,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-[#4285F4] rounded-full flex items-center justify-center">
-                <img
-                  src="https://www.gstatic.com/chrome/dino/t-rex-head.png"
-                  alt="DevJams Logo"
-                  className="w-6 h-6"
-                />
+                <div className="w-6 h-6 bg-white mask-dino"></div>
               </div>
               <span className="text-xl font-bold text-gray-900 dark:text-white">DevJams</span>
             </div>
@@ -111,7 +103,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                VIT Vellore, GDSC
+                VIT Vellore
               </li>
             </ul>
           </div>
@@ -122,11 +114,14 @@ const Footer = () => {
           <p className="text-gray-600 dark:text-gray-400 text-sm">
             &copy; {new Date().getFullYear()} DevJams. All rights reserved.
           </p>
-          <p className="mt-2 text-gray-500 dark:text-gray-500 text-sm flex items-center justify-center">
-            Designed with
-            <span className="mx-1 text-[#DB4437]">❤️</span>
-            By Ithan Menachery
-          </p>
+          <div className="mt-2 flex items-center justify-center space-x-2 text-lg font-bold">
+            <span className="text-[#4285F4]">G</span>
+            <span className="text-[#DB4437]">D</span>
+            <span className="text-[#F4B400]">S</span>
+            <span className="text-[#0F9D58]">C</span>
+            <span className="text-gray-600 dark:text-gray-400 mx-2">&lt;&gt;</span>
+            <div className="w-6 h-6 bg-[#4285F4] mask-dino"></div>
+          </div>
         </div>
       </div>
     </footer>
