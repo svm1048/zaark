@@ -73,7 +73,9 @@ function App() {
         <Faq />
       </main>
       
-      <Footer />
+      <footer class="big-footer">
+        GDSC
+      </footer>
       
       <AnimatePresence>
         {showFab && (

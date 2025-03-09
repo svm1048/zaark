@@ -197,3 +197,34 @@ button:focus-visible {
     border-color: #374151;
   }
 }
+.big-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+  color: white;
+  background: black;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  z-index: 1000;
+  
+  /* Fade-in Animation */
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
